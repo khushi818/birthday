@@ -1,7 +1,10 @@
 const loader =  document.getElementById('main');
 window.addEventListener('load',function()
 {
-  loader.style.display =  'none';
+  setTimeout(() => {
+    loader.style.display =  'none';
+  }, 5000);  
+  
 });
 
 var canvas = document.getElementById('canvas')
